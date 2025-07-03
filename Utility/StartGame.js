@@ -1,5 +1,5 @@
-import {Player} from './Classes/ClassPlayer.js';
-import {Riddles} from './Classes/ClassRiddle.js';
+import {Player} from '../Classes/ClassPlayer.js';
+import {Riddles} from '../Classes/ClassRiddle.js';
 import readline from 'readline-sync';
 
 function timeStrTOint(timeStr)
