@@ -3,17 +3,17 @@ import readlineSync from "readline-sync";
 
 
 //Utility function
-function MaxId(path) {
-    let counter = 1;
-    // arrayOfObjects = JSON.parse(Read(path))
-    path.forEach(item => {
-        if ("ID" in item) {
-            counter += 1;
-        }
-    });
+// function MaxId(path) {
+//     let counter = 1;
+//     // arrayOfObjects = JSON.parse(Read(path))
+//     path.forEach(item => {
+//         if ("ID" in item) {
+//             counter += 1;
+//         }
+//     });
 
-    return counter;
-}
+//     return counter;
+// }
 
 async function Create(DBPath, name, TimeStatistics) {
     const templitJson =
@@ -55,8 +55,8 @@ const res = await Read("../DB/TestingFile.txt");
 console.log(res, "\n", "Type:", typeof res);
 // const testReadLine = readlineSync.question("Enter name: " )
 // console.log("Hi", testReadLine);
-console.log(MaxId(res));
-Create(res, "Moti", "5")
+// console.log(MaxId(res));c
+// Create(res, "Moti", "5")
 
 
 
